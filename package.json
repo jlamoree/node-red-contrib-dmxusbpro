@@ -1,20 +1,22 @@
 {
-  "name": "node-red-contrib-dmxusbpro",
-  "version": "1.0.2",
-  "description": "node-red driver for Enntec DMX USB Pro - adapted and simplified from node-dmx package https://www.npmjs.com/package/dmx requires node-serialport module",
-  "main": "dmxusbpro.js",
-  "dependencies": {
-        "serialport": "^7.7.6"
+    "name": "node-red-contrib-dmxusbpro",
+    "version": "1.0.2",
+    "description": "node-red driver for Enntec DMX USB Pro - adapted and simplified from node-dmx package https://www.npmjs.com/package/dmx requires node-serialport module",
+    "main": "dmxusbpro.js",
+    "dependencies": {
+        "serialport": "^9.2.0"
     },
-  "keywords": [ "node-red" ],
-  "repository" : {
-        "type":"git",
-        "url":"https://github.com/blechdom/node-red-contrib-dmxusbpro.git"
+    "keywords": [
+        "node-red"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blechdom/node-red-contrib-dmxusbpro.git"
     },
-  "author": "Kristin Grace Galvin",
-  "email": "blechdom@gmail.com",
-  "license": "ISC",
-  "node-red": {
+    "author": "Kristin Grace Galvin",
+    "email": "blechdom@gmail.com",
+    "license": "ISC",
+    "node-red": {
         "nodes": {
             "dmxusbpro": "dmxusbpro.js"
         }
